@@ -1,14 +1,16 @@
-import '../styles/components/sidebar.sass';
+import SoicialNetworks from './SocialNetWorking';
+
 import profile from '../img/profile.jpeg';
-import SoicialNetworking from './SocialNetWorking';
+import '../styles/components/sidebar.sass';
+import InformationContainer from './informationContainer';
 
 const Sidebar = () => {
     return (
         <aside id="sidebar">
-            <img src={profile} alt="" />
-            <SoicialNetworking/>
+            <img src={profile} alt="Philipe Ferreira" />
             <p className="title">Desenvolvedor</p>
-            <p>informações de contato</p>
+            <SoicialNetworks />
+            <InformationContainer />
             <a href="" className="btn">
                 Download Currículo
             </a>
