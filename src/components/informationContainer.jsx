@@ -1,5 +1,5 @@
 import '../styles/components/informationcontainer.sass'
-import { AiFillPhone, AiFillEnvironment, AiOutlineMail, AiFillAlert } from 'react-icons/ai';
+import { AiFillPhone, AiFillEnvironment, AiOutlineMail } from 'react-icons/ai';
 
 const InformationContainer = () => {
     return (
@@ -27,7 +27,6 @@ const InformationContainer = () => {
                     <p>Volta Redonda/RJ</p>
                 </div>
             </div>
-
         </section>
     )
 }
