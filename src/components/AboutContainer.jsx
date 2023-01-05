@@ -5,10 +5,14 @@ const AboutContainer = () => {
         <section id="about-container">
             <h2>Sobre</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nostrum, velit eum sed in aliquam culpa ipsam aliquid sapiente vel, optio rerum sit excepturi nihil reprehenderit facere harum id obcaecati!
+                Apaixonado por tecnologia e por desenvolvimento web procuro aprender e
+                desenvolver sistemas utilizando o que tem de mais moderno na área hoje em dia como,
+                HTML, CSS, Javascript, React Web, React Native e NodeJS.
             </p>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, perspiciatis eveniet. Corporis error, quo illum esse, explicabo animi impedit et voluptates non ipsam adipisci enim veritatis itaque quidem nemo. Omnis!
+                O meu foco é desenvolvimento web front end utilizando a biblioteca ReactJs,
+                mas ja desenvolvi sistemas mobile utilizando React Native e em outros casos tive que mexer com o
+                back end da aplicação utilizando NodeJS. 
             </p>
         </section>
     )
