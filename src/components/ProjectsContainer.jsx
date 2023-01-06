@@ -4,8 +4,8 @@ const ProjectsContainer = () => {
     return (
         <section id="projects-container">
             <h2>Projetos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat numquam quod fuga exercitationem, optio minima consequuntur ipsum cupiditate porro rem, ab rerum. Illo placeat iure ducimus corrupti neque architecto vitae?</p>
-            <a href="#" className="btn">Ver Projetos</a>
+            <p>Desenvolvo sistemas constantemente como forma de manter o hábito do aprendizado e as boas práticas de sempre estar programando e me desafiando com novos projetos, participando de bootcamps, livecoding, cursos e treinamentos mantendo assim o GitHub atualizado.  </p>
+            <a href="https://github.com/PhilipeF" className="btn">Ver Projetos</a>
         </section>
     )
 }

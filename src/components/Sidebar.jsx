@@ -1,7 +1,9 @@
 import SoicialNetworks from './SocialNetWorking';
 import InformationContainer from './informationContainer';
 
-import profile from '../img/profile.jpeg';
+import file from '../assets/curriculophilipef.pdf';
+import profile from '../assets/profile.jpeg';
+
 import '../styles/components/sidebar.sass';
 
 const Sidebar = () => {
@@ -11,10 +13,8 @@ const Sidebar = () => {
             <p className="title">Desenvolvedor Web <br /> Front End</p>
             <SoicialNetworks />
             <InformationContainer />
-            {/* <a href='../img/profile.jpeg' download className='btn'> */}
-            <a href='../assets/curriculophilipef.pdf' download className="btn">
+            <a href={file} download className="btn">
                 Download Currículo
-                {/* <img src='../img/profile.jpeg' alt="profile" width="500" height="500" /> */}
             </a>
         </aside>
     )
