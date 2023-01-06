@@ -8,25 +8,25 @@ const technologies = [
         id: "html",
         name: "HTML5",
         icon: <DiHtml5 />,
-        description: "Linguagem de Marcação de Hipertexto (HTML)"
+        description: "Linguagem de Marcação de Hipertexto (HTML). Utilizada para fazer a estrutura base das paginas web"
     },
     {
         id: "css",
         name: "CSS3",
         icon: <DiCss3 />,
-        description: "Usamos para estilizar as paginas web"
+        description: "Usamos para estilizar elementos de uma pagina como cor do texto, fonte e espaçamento entre blocos."
     },
     {
         id: "js",
         name: "JavaScript",
         icon: <DiJavascript />,
-        description: "Linguagem de programação que permite a você implementar itens complexos em páginas web "
+        description: "Linguagem de programação que permite a você implementar itens complexos em páginas web"
     },
     {
         id: "reactjs",
         name: "ReactJS",
         icon: <DiReact />,
-        description: "É uma biblioteca mais popular do JavaScript e é usada para construir uma interface de usuário (IU). "
+        description: "É uma biblioteca mais popular do JavaScript e é usada para construir uma interface de usuário (IU)"
     },
     {
         id: "nodejs",
