@@ -7,11 +7,12 @@
     .technologies-grid
         display: flex
         flex-wrap: wrap
+        align-items: center
         gap: 1.5rem
 
     .technology-card
         @include mixins.center
-        gap: 2rem
+        gap: 1rem
         padding: 1rem
         border: 1px solid #333
         width: 45%
@@ -44,3 +45,16 @@
     #typeScript
         svg
             color: #2962ff
+
+@media ( max-width: variables.$mobile  )
+    .technologies-grid
+        display: grid
+
+        .technology-card
+            display: grid
+            width: auto
+            gap: 0.2rem
+            text-align: center
+
+        svg
+            display: none
