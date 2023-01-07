@@ -26,13 +26,13 @@ const technologies = [
         id: "reactjs",
         name: "ReactJS",
         icon: <DiReact />,
-        description: "É uma biblioteca mais popular do JavaScript e é usada para construir uma interface de usuário (IU)"
+        description: "É biblioteca mais popular do JavaScript usada para construir interface de usuário (IU)"
     },
     {
         id: "nodejs",
         name: "NodeJS",
         icon: <DiNodejs />,
-        description: "É um ambiente de execução Javascript server-side."
+        description: "É um ambiente de execução Javascript server-side"
     },
     {
         id: "typeScript",
