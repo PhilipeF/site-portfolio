@@ -11,7 +11,7 @@ const AboutContainer = () => {
             </p>
             <p>
                 O meu foco desde 2020 é desenvolvimento web front end utilizando a biblioteca ReactJs,
-                mas ja desenvolvi sistemas mobile utilizando React Native e em outros casos tive que mexer com o back end da aplicação utilizando NodeJS.
+                mas ja desenvolvi sistemas mobile utilizando React Native e em outros casos tive contato com o back end da aplicação utilizando NodeJS.
             </p>
         </section>
     )

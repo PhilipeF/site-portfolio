@@ -14,7 +14,7 @@ const technologies = [
         id: "css",
         name: "CSS3",
         icon: <DiCss3 />,
-        description: "Usamos para estilizar elementos de uma pagina como cor do texto, fonte e espaçamento entre blocos."
+        description: "Usamos para estilizar elementos de uma pagina como cor do texto, fonte e espaçamento entre blocos"
     },
     {
         id: "js",
