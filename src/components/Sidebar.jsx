@@ -1,7 +1,7 @@
 import SoicialNetworks from './SocialNetWorking';
 import InformationContainer from './informationContainer';
 
-import file from '../assets/philipe-curriculo-dev.pdf';
+import file from '../assets/philipesf-curriculo-dev.pdf';
 import profile from '../assets/profile.jpeg';
 
 import '../styles/components/sidebar.sass';
