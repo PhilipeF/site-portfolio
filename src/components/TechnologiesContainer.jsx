@@ -18,19 +18,19 @@ const technologies = [
     },
     {
         id: "js",
-        name: "JavaScript",
+        name: "Javascript",
         icon: <DiJavascript />,
         description: "Linguagem de programação que permite a você implementar itens complexos em páginas web."
     },
     {
         id: "reactjs",
-        name: "ReactJS",
+        name: "React",
         icon: <DiReact />,
         description: "É biblioteca mais popular do JavaScript usada para construir interface de usuário (IU)."
     },
     {
         id: "nodejs",
-        name: "NodeJS",
+        name: "Node.js",
         icon: <DiNodejs />,
         description: "É um ambiente de execução Javascript server-side."
     },
