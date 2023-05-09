@@ -24,7 +24,7 @@ const technologies = [
     },
     {
         id: "reactjs",
-        name: "React",
+        name: "React.js",
         icon: <DiReact />,
         description: "É biblioteca mais popular do JavaScript usada para construir interface de usuário (IU)."
     },
