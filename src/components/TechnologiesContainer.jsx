@@ -1,5 +1,5 @@
-import { DiHtml5, DiCss3, DiJavascript, DiNodejs, DiReact } from 'react-icons/di'
-import { SiTypescript } from 'react-icons/si'
+import { DiHtml5, DiCss3, DiJavascript, DiNodejs, DiReact, DiWordpress } from 'react-icons/di';
+import { SiTypescript, SiVtex } from 'react-icons/si';
 
 import '../styles/components/technologiescontainer.sass'
 
@@ -39,6 +39,18 @@ const technologies = [
         name: "TypeScript",
         icon: <SiTypescript />,
         description: "É um conjunto de ferramentas e formas mais eficientes de escrever código JavaScript."
+    },
+    {
+        id: "vtexio",
+        name: "VTEX IO",
+        icon: <SiVtex />,
+        description: "É uma plataforma em sistema low-code, voltado para o desenvolvimento de aplicativos para a versão web."
+    },
+    {
+        id: "wordPress",
+        name: "WordPress",
+        icon: <DiWordpress />,
+        description: "É um CMS que nada mais é do que uma plataforma para publicação e gerenciamento de blogs e sites, utilizando PHP e bancos de dados MySQL."
     }
 ]
 
