@@ -3,7 +3,7 @@
 #portifolio
     display: flex
     flex-wrap: wrap
-    padding: 3rem
+    padding: 0 3rem
     gap: 3rem
 
     h1
@@ -14,10 +14,16 @@
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
 
+    .footer
+        display: flex
+        flex-direction: flex-end
+        padding: 1rem
+
 @media ( max-width: variables.$mobile )
     #portifolio
         h1
             font-size: 4rem
             text-align: center
+            margin-top: 2rem
     #sidebar
         background-image: none
